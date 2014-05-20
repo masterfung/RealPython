@@ -19,4 +19,20 @@ cardinal_nums = ('first','second','third')
 print cardinal_nums[1]
 pos1, pos2, pos3 = cardinal_nums #tulip unpacking
 print pos1, pos2, pos3
+
 #6.3 Exercises
+birthdays = {}
+
+birthdays['Luke Skywalker'] = '5/24/19'
+birthdays['Obi-Wan Kenobi'] = '3/11/57'
+birthdays['Darth Vader'] = '4/1/41' 
+
+if not 'Yoda' in birthdays:
+	birthdays['Yoda'] = 'unknown'
+if not 'Darth Vader' in birthdays:
+	birthdays['Darth Vader'] = 'unknown'
+
+for name in birthdays:
+	print name, birthdays[name]
+
+del(birthdays['Darth Vader'])
