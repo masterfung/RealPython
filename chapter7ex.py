@@ -19,3 +19,4 @@ somethingFun.writelines(somethingAmazing)
 somethingFun.close()
 
 #7.2 Exercises
+# os.listdir()
