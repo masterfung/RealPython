@@ -1,3 +1,5 @@
+import os
+
 #7.1 Exercises
 firstInput = open('Practice Files/Chapter 7/Practice files/poem.txt', 'r')
 subject = firstInput.readline()
@@ -15,3 +17,5 @@ somethingFun = open('Practice Files/Chapter 7/Practice files/test.txt', 'a')
 somethingAmazing = ["I saw the newest X-Men movie on release night and I still love the X-Men! Go see it!"]
 somethingFun.writelines(somethingAmazing)
 somethingFun.close()
+
+#7.2 Exercises
