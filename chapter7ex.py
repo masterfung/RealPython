@@ -19,4 +19,6 @@ somethingFun.writelines(somethingAmazing)
 somethingFun.close()
 
 #7.2 Exercises
-# os.listdir()
+
+aGoodPath = 'Practice Files/Chapter 7/Practice files/images'
+filesAndFolders = os.listdir(aGoodPath)
